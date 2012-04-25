@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <com.google.android.maps.MapView
+        android:id="@+id/mapview_view"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:clickable="true"
+        android:apiKey="0hj5gZTAg0iPQ26F71a3U6m3Eqb5t81V62Ar43Q" />
+	<!-- Du må kanskje bruke egen nøkkel -->
+
+
+</LinearLayout>

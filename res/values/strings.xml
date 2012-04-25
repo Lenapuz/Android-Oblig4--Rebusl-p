@@ -3,5 +3,11 @@
 
     <string name="hello">Hello World, RebusActivity!</string>
     <string name="app_name">Android-Oblig4--Rebusl-p</string>
+    
+    
+    
+    
+    <!-- Main menu strings -->
+    <string name="main_button_startmap">Show map</string>
 
 </resources>
