@@ -4,13 +4,20 @@
     android:layout_height="fill_parent"
     android:orientation="vertical" >
 
-    <com.google.android.maps.MapView
+   	<com.google.android.maps.MapView
         android:id="@+id/mapview_view"
         android:layout_width="fill_parent"
         android:layout_height="fill_parent"
-        android:clickable="true"
+    	android:enabled="true"
+    	android:clickable="true"
         android:apiKey="0hj5gZTAg0iPQ26F71a3U6m3Eqb5t81V62Ar43Q" />
 	<!-- Du må kanskje bruke egen nøkkel -->
-
+	
+	<LinearLayout android:id="@+id/mapview_layout_zoom" 
+    	android:layout_width="wrap_content" 
+    	android:layout_height="wrap_content" 
+    	android:layout_alignParentBottom="true" 
+    	android:layout_centerHorizontal="true" 
+  	/> 
 
 </LinearLayout>
