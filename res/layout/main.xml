@@ -14,5 +14,21 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/main_button_startmap"/>
-
+    <Button 
+        android:id="@+id/main_button_startrace"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/main_button_startrace"/>
+        <Button 
+        android:id="@+id/main_button_cancel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/main_button_cancel"/>
+    
+    
+	<Button 
+        android:id="@+id/main_button_settings"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/main_button_settings"/>
 </LinearLayout>

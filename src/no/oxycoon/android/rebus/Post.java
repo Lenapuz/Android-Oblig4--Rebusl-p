@@ -16,14 +16,44 @@ public class Post {
 		this.visited = false;
 	}
 	
+	/**
+	 * @param visited
+	 */
 	public void SetVisited(boolean visited){ this.visited= visited; } 
 	
+	/**
+	 * @return
+	 */
 	public int TrackId(){ return trackId; }
+	
+	/**
+	 * @return
+	 */
 	public int PostId(){ return postId; }
+	
+	/**
+	 * @return
+	 */
 	public double Radius(){ return radius; }
+	
+	/**
+	 * @return
+	 */
 	public double Latitude(){ return lat; }
+	
+	/**
+	 * @return
+	 */
 	public double Longitude(){ return lng; }
+	
+	/**
+	 * @return
+	 */
 	public String Hint(){ return hint; }
+	
+	/**
+	 * @return
+	 */
 	public boolean Visited(){ return visited; }
 
 }

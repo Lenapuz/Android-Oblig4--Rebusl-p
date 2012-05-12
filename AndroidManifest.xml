@@ -6,8 +6,10 @@
 
     <uses-sdk android:minSdkVersion="14" />
     <uses-permission android:name="android.permission.INTERNET" />
-	<uses-permission android:name="android.permission.ACCESS_FINE_LOCATION"/>
-	<uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION"/>
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_MOCK_LOCATION" /> 
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.VIBRATE" />
 
     <application
         android:icon="@drawable/ic_launcher"
@@ -25,6 +27,17 @@
         <activity 
             android:name="RebusMap" >            
         </activity>
+        <activity
+            android:name="RebusListViewer">            
+        </activity>
+        
+        <receiver 
+            android:name=".RebusReciever">
+            <intent-filter>
+                <action android:name="no.oxycoon.android.rebus.ProximityAlert" />
+            </intent-filter>
+        </receiver>
+        
     </application>
 
 </manifest>
